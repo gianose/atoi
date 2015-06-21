@@ -1,0 +1,19 @@
+Name: atoi.rb
+ Converts an ASCII string representing of a number ('256') into an integer (256). It 
+accomplishes this task successfully without the use of a single condition statment in the
+primary function, nor is multiplication utilized in the conversation. Instead the 
+primary function relies on a indexed array (Hash) and division in order accomplish the 
+conversion.
+
+Usage:
+	./atoi.rb -s '[STRING_REPESENTATION_OF_AN_INTEGER]' 
+			e.g. ./atoi.rb '745'
+				=> 745
+
+More details on usage be attained by executing atoi.rb with the -h hook
+	e.g. ./atoi.rb -h
+	
+Note:
+	The initial interpretation directory contain the code I wrote based on my initial 
+interpretation of the problem. I initial thought the input should be an ASCII
+representation of a number such as "54 52 50" which would produce an output of 642.
